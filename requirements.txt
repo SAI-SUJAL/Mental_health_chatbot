@@ -3,4 +3,4 @@ huggingface-hub==0.16.3
 langchain==0.0.200
 pandas==1.5.3
 streamlit==1.16.0
-secrets==1.0.0  # For random token generation (already built-in Python package, no need to install)
+
