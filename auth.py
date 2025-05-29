@@ -6,7 +6,7 @@ import secrets
 from rag_query import rag_query  # Import your RAG query logic
 
 # Hugging Face Client Setup
-HF_TOKEN = "hhf_wLKmaqGneiqxqiVtdPMNhWywjnOThTzAEa"
+HF_TOKEN = "your token"
 client = InferenceClient("mistralai/Mistral-7B-Instruct-v0.3", token=HF_TOKEN)
 
 app = Flask(__name__)
